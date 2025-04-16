@@ -77,8 +77,9 @@ public class EmployeeWageComputation {
 
 	            System.out.print("Maximum Working Hours per Month: ");
 	            int maxWorkingHours = sc.nextInt();
-	            sc.nextLine(); // consume leftover newline
-
+	            sc.nextLine(); 
+	            
+	            // consume leftover newline
 	            computeEmployeeWage(companyName, wagePerHour, maxWorkingDays, maxWorkingHours);
 	        }
 
